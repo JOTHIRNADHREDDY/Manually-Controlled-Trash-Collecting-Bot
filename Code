@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL309wN1vU5"
-#define BLYNK_TEMPLATE_NAME "TCB"
-#define BLYNK_AUTH_TOKEN "A9pYeQZ2kYm3TK77dx80l2D-gc-BL5uo"
+#define BLYNK_TEMPLATE_ID "YOUR_TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
+#define BLYNK_AUTH_TOKEN "YOUR_BLYNK_AUTH_TOKEN"
 
 #define BLYNK_PRINT Serial
 
@@ -9,8 +9,8 @@
 #include <ESP32Servo.h>
 
 // Wi-Fi Credentials
-char ssid[] = "YK";
-char pass[] = "abcd1234";
+char ssid[] = "YOUR_WIFI_SSID";
+char pass[] = "YOUR_WIFI_PASSWORD";
 
 // --- Motor Pin Assignments ---
 #define RIGHT_RPWM 19
