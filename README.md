@@ -2,10 +2,6 @@
 
 A remotely controlled waste-collection robot built around an ESP32 and a Blynk mobile interface. The prototype combines a four-wheel drive base, servo-operated arms, a collection bin, and a metal-detection/sorting concept to help reduce direct human contact with collected waste.
 
-<p align="center">
-  <img src="assets/project-poster.jpg" alt="Project poster for the Manually Trash Collecting Bot" width="720">
-</p>
-
 ## Project Gallery
 
 ### Built Robot Prototype
