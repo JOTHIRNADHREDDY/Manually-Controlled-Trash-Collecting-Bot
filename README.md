@@ -101,34 +101,34 @@ Slider	Adjust a configured control value
 The labels describe the interface; the exact behavior and datastream assignments should be confirmed in the project's Blynk and firmware configuration.
 Getting Started
 1. Prepare the hardware
-1. Assemble the chassis, four drive motors, wheels, collection bin, and servo-operated mechanisms.
-2. Mount the ESP32 and motor drivers securely.
-3. Connect the power system according to the circuit diagram, checking voltage and polarity.
-4. Confirm that the motor and servo power supplies can handle their expected current.
-5. Keep the robot's wheels raised during the first motor-direction tests.
+  1. Assemble the chassis, four drive motors, wheels, collection bin, and servo-operated mechanisms.
+  2. Mount the ESP32 and motor drivers securely.
+  3. Connect the power system according to the circuit diagram, checking voltage and polarity.
+  4. Confirm that the motor and servo power supplies can handle their expected current.
+  5. Keep the robot's wheels raised during the first motor-direction tests.
 2. Configure the ESP32 firmware
-1. Open the project's ESP32 sketch in Arduino IDE.
-2. Install any libraries required by that sketch.
-3. Configure the Wi-Fi credentials and Blynk device/template credentials if the code uses them.
-4. Select the correct ESP32 board and serial port.
-5. Compile and upload the firmware.
-6. Open Serial Monitor and verify that the board starts and connects to the network.
-Security: Do not commit Wi-Fi passwords, Blynk authentication tokens, or other private credentials to a public repository. Use placeholders in example files.
+  1. Open the project's ESP32 sketch in Arduino IDE.
+  2. Install any libraries required by that sketch.
+  3. Configure the Wi-Fi credentials and Blynk device/template credentials if the code uses them.
+  4. Select the correct ESP32 board and serial port.
+  5. Compile and upload the firmware.
+  6. Open Serial Monitor and verify that the board starts and connects to the network.
+  Security: Do not commit Wi-Fi passwords, Blynk authentication tokens, or other private credentials to a public repository. Use placeholders in example files.
 3. Configure Blynk
-1. Create or open the Blynk template/device used by the firmware.
-2. Set up the datastreams and widgets expected by the code.
-3. Assign each button and slider to the matching virtual pin/datastream.
-4. Make sure the app and ESP32 use the same device configuration.
-5. Test one control at a time before operating the robot on the floor.
-The screenshots alone do not provide the exact virtual-pin mapping, firmware file names, or slider range. Use the code and Blynk configuration in the repository as the source of truth.
+  1. Create or open the Blynk template/device used by the firmware.
+  2. Set up the datastreams and widgets expected by the code.
+  3. Assign each button and slider to the matching virtual pin/datastream.
+  4. Make sure the app and ESP32 use the same device configuration.
+  5. Test one control at a time before operating the robot on the floor.
+  The screenshots alone do not provide the exact virtual-pin mapping, firmware file names, or slider range. Use the code and Blynk configuration in the repository as the source of truth.
 4. Test the robot
-1. Test each servo without a load.
-2. Test each motor at low speed with the wheels raised.
-3. Verify forward, reverse, left, right, and stop behavior.
-4. Test Grab, Collect, Release, Initial Position, and Dump separately.
-5. Test the metal sensor with known metallic and non-metallic objects.
-6. Test the robot on a clear, flat surface at low speed.
-7. Check battery voltage and wiring temperature during operation.
+  1. Test each servo without a load.
+  2. Test each motor at low speed with the wheels raised.
+  3. Verify forward, reverse, left, right, and stop behavior.
+  4. Test Grab, Collect, Release, Initial Position, and Dump separately.
+  5. Test the metal sensor with known metallic and non-metallic objects.
+  6. Test the robot on a clear, flat surface at low speed.
+  7. Check battery voltage and wiring temperature during operation.
 Safety Notes
 - This is an educational prototype, not a certified waste-handling or industrial robot.
 - Keep hands, clothing, and loose wires away from wheels, gears, and servo linkages.
